@@ -1,0 +1,15 @@
+# Terraform
+.terraform/
+terraform.tfvars
+*.tfvars
+*.tfstate
+*.tfstate.*
+.terraform.lock.hcl
+
+# Sensitive / local only
+aws/
+aws-auth.yaml
+
+# OS / editor
+*.swp
+.DS_Store
