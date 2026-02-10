@@ -27,6 +27,7 @@
 ---
 
 ## 디렉터리 구조
+```
 ├── eks/
 │   ├── main.tf                # EKS / VPC 주요 리소스 정의
 │   ├── vars.tf                # 변수 선언
@@ -39,3 +40,4 @@
 │   ├── Jenkinsfile.app        # 샘플 애플리케이션 배포
 │   └── Jenkinsfile.analysis   # 리소스 분석 파이프라인
 └── README.md
+```
